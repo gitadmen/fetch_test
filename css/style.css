@@ -1,0 +1,20 @@
+
+
+
+.ptb {
+    padding-top: 30px;
+}
+
+textarea {
+    text-align: center;
+    font-size: 40px;
+    grid-row: auto;
+     
+}
+
+button {
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: whitesmoke;
+}
