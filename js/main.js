@@ -5,6 +5,7 @@ function sendSMS(e) {
     var myHeaders = new Headers();
     myHeaders.append("Authorization", "Bearer 1wyyxKVT5hl18qWgTIzyI7Zgp8kX5qYKsNwXrvHa");
     myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Access-Control-Allow-Origin", "https://api.smsapi.pl/");
 
     var raw = JSON.stringify({
         "from": "INFO",
